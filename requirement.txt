@@ -1,0 +1,15 @@
+python -m venv venv :- to create a virtual environment in your pc
+
+
+.\venv\Scripts\activate :- to activate the local environment 
+$env:PYTHONDONTWRITEBYTECODE=1 :- to prevent the byte code file generation
+
+pip install flask
+pip install Flask Flask-JWT-Extended
+pip install Flask-CORS
+pip install mysql-connector-python
+
+
+pip install twilio
+pip install Flask-Bcrypt
+
